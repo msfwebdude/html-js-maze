@@ -1,0 +1,128 @@
+
+    /* Main Elements */
+#arena { 
+  width           : 1152px;
+  margin          : auto auto;
+  border          : 1px solid navy;
+  background-color: #FFF;
+  font-family     : monospace;
+}
+#frame { 
+  background-color: #001400;
+}
+#panel { 
+  width        : 85%;
+  margin       : auto auto;
+  border       : 1px solid lightgray;
+  padding      : 15px;
+  border-radius: 25px;
+}
+#title { 
+  text-align : center;
+  font-family: monospace;
+  color      : limegreen;
+}
+
+
+    /* Cell Elements */
+.cellCommon {
+  width           : 16px;
+  height          : 16px;
+  margin          : 0px;
+  background-color: white;
+  display         : inline-block;
+  border          : 1px solid white;
+}
+
+
+.cellType0 {  
+  border-color: none;
+}
+
+.cellType1 {  
+  border-top-color   : navy;
+  border-bottom-color: navy;
+}
+
+.cellType2 {  
+  border-left-color : navy;
+  border-right-color: navy;
+}
+
+.cellType3 {  
+  border-top-color  : navy;
+  border-left-color : navy;
+  border-right-color: navy;
+}
+
+.cellType4 {  
+  border-top-color   : navy;
+  border-bottom-color: navy;
+  border-right-color : navy;
+}
+
+.cellType5 {  
+  border-bottom-color: navy;
+  border-left-color  : navy;
+  border-right-color : navy;
+}
+
+.cellType6 {  
+  border-top-color   : navy;
+  border-bottom-color: navy;
+  border-left-color  : navy;
+}
+
+
+.cellType7 {  
+  border-top-color  : navy;
+  border-right-color: navy;
+}
+
+
+.cellType8 {
+  border-bottom-color: navy;
+  border-right-color : navy;
+}
+
+
+.cellType9 {  
+  border-bottom-color: navy;
+  border-left-color  : navy;
+}
+
+
+.cellTypeA {  
+  border-top-color : navy;
+  border-left-color: navy;
+}
+
+
+.cellTypeB {  
+  border-left-color: navy;
+}
+
+
+.cellTypeC {
+  border-top-color: navy;
+}
+
+
+.cellTypeD {
+  border-right-color: navy;
+}
+
+
+.cellTypeE {  
+  border-bottom-color: navy;
+}
+
+
+.cellTypeF {  
+  border-color: navy;
+}
+
+
+
+
+
