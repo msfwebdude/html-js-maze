@@ -23,6 +23,12 @@
   font-family: monospace;
   color      : limegreen;
 }
+.control {
+  text-align   : center;
+  font-family  : monospace;
+  margin-top   : 50px;
+  margin-bottom: 50px;
+}
 
 
     /* Cell Elements */
@@ -33,6 +39,8 @@
   background-color: white;
   display         : inline-block;
   border          : 1px solid white;
+  font-size       : 12px;
+  text-align      : center;
 }
 
 

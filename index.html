@@ -4,6 +4,7 @@
 	<title>Maze</title>
 	<meta charset="utf-8" />
 	<link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/switches.css">
 	<script src="./assets/js/main.js" defer></script>
 </head>
 <body id="frame">
@@ -12,6 +13,16 @@
 	<div id="panel">
 		<div id="arena">
 		</div>
+    <div class="control">
+      <label>Debug Mode</label>
+      <div class="onoffswitch">
+          <input type="checkbox" name="debugModeSwitch" class="onoffswitch-checkbox" id="debugModeSwitch" tabindex="0" onchange="debugModeChange(this)" >
+          <label class="onoffswitch-label" for="debugModeSwitch">
+              <span class="onoffswitch-inner"></span>
+              <span class="onoffswitch-switch"></span>
+          </label>
+      </div>
+    </div>
 	</div>
 	<p><br /></p>
 </body>
