@@ -1,7 +1,7 @@
 ![GitHub](https://img.shields.io/github/license/msfwebdude/html-js-maze?style=plastic) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/msfwebdude/html-js-maze?style=plastic)
 ![GitHub last commit](https://img.shields.io/github/last-commit/msfwebdude/html-js-maze?style=plastic)
 
-# HTML and Javascript Maxe
+# HTML and Javascript Maze
 An attempt at creating a maze in javascript and html only. 
 
 
